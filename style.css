@@ -2,10 +2,12 @@ body {
     margin: 0px;
     display: flex;
     flex-direction: column;
+    height: 100vh;
     
 }
 
 .part1 {
+    flex-grow: 8;
     display: flex;
     flex-direction: column;
     background-color: #1F2937 ;
@@ -94,7 +96,7 @@ li {
 
 
 .part2 {
-   
+    flex-grow: 7;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -144,7 +146,7 @@ li {
 
 
 .part3 {
-    
+    flex-grow: 6;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -173,13 +175,15 @@ li {
 }
 
 .part4 {
+    
     display: flex;
     justify-content: center;
     align-items: center;
-    
+    flex-grow: 4;
 }
 
 .part5 {
+    flex-grow: 0;
     background-color: #1F2937 ;
     display: flex;
     justify-content: center;
